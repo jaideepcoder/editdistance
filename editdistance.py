@@ -1,7 +1,7 @@
 def editdistance(s1, s2):
     """Method to calculate Damerau-Levenshtein Minimum Edit Distance between two strings.
 Usage:
->>> editdistance('brilliant', ''briliant')
+>>> editdistance('brilliant', 'briliant')
    #   B   R   I   L   I   A   N   T  
 #  0   1   2   3   4   5   6   7   8   
 
@@ -62,7 +62,7 @@ Damerau-Levenshtein Minimum Distance: 1
     print '  ',
     for l in s2:
         print l+'  ',
-    print
+    print '\n'
 
     for i in range(m):
         print s1[i],'',
