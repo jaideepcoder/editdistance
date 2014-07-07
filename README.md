@@ -8,6 +8,7 @@ editdistance(s1, s2)
     Usage:  
     >>> editdistance('brilliant', ''briliant')  
        #   B   R   I   L   I   A   N   T  
+    
     #  0   1   2   3   4   5   6   7   8   
     
     B  1   0   1   2   3   4   5   6   7   
